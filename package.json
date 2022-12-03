@@ -1,0 +1,83 @@
+{
+  "name": "hummer",
+  "version": "1.0.0-development",
+  "description": "🥊 A object storage resource manager that supports multiple cloud server vendors.",
+  "homepage": "https://github.com/lzm0x219/hummer#readme",
+  "bugs": {
+    "url": "https://github.com/lzm0x219/hummer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzm0x219/hummer.git"
+  },
+  "license": "MIT",
+  "author": "摸奶伯德",
+  "source": "index.html",
+  "scripts": {
+    "build": "pnpm tauri build",
+    "build:report": "parcel build --reporter @parcel/reporter-bundle-analyzer",
+    "build:web": "tsc --noEmit && parcel build",
+    "dev": "pnpm tauri dev",
+    "dev:web": "parcel --port 4900 --cert ./certs/localhost.cert --key ./certs/localhost.key",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "is-ci || husky install",
+    "preview": "http-server dist --port 4901 -S --cert ./certs/localhost.cert --key ./certs/localhost.key",
+    "start": "pnpm dev"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,cjs}": [
+      "rome format --write",
+      "rome check"
+    ],
+    "*.{md,html,css,json,yml}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
+    "package.json": "pnpm sort-package-json"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "@tauri-apps/api": "1.2.0",
+    "solid-app-router": "0.4.2",
+    "solid-js": "1.6.2",
+    "solid-transition-group": "0.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.5",
+    "@parcel/config-default": "2.8.0",
+    "@parcel/core": "2.8.0",
+    "@parcel/reporter-bundle-analyzer": "2.8.0",
+    "@parcel/reporter-bundle-buddy": "2.8.0",
+    "@parcel/validator-typescript": "2.8.0",
+    "@tauri-apps/cli": "1.2.1",
+    "@types/parcel-env": "0.0.1",
+    "babel-preset-solid": "1.6.2",
+    "http-server": "14.1.1",
+    "husky": "8.0.2",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.4",
+    "parcel": "2.8.0",
+    "postcss": "8.4.19",
+    "postcss-custom-properties": "13.0.0",
+    "postcss-import": "15.0.0",
+    "postcss-url": "10.1.3",
+    "prettier": "2.8.0",
+    "prettier-plugin-packagejson": "2.3.0",
+    "prettier-plugin-tailwindcss": "0.1.13",
+    "process": "0.11.10",
+    "rome": "10.0.1-nightly.b7eb6fd",
+    "sort-package-json": "2.1.0",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.3"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true,
+      "customMedia": true
+    },
+    "pseudoClasses": {
+      "focusVisible": "focus-visible"
+    }
+  },
+  "alias": {
+    "@/*": "./src/$1"
+  }
+}
