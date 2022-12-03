@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Disabled bounce for Macos  */
+  html {
+    @apply h-[100vh] w-[100vw] overflow-hidden;
+  }
+
+  body {
+    -webkit-overflow-scrolling: touch;
+    @apply h-full overflow-y-auto;
+  }
+}
