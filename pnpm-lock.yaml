@@ -10,7 +10,7 @@ specifiers:
   '@tauri-apps/api': 1.2.0
   '@tauri-apps/cli': 1.2.1
   '@types/parcel-env': 0.0.1
-  babel-preset-solid: 1.6.2
+  babel-preset-solid: 1.6.3
   http-server: 14.1.1
   husky: 8.0.2
   is-ci: 3.0.1
@@ -47,7 +47,7 @@ devDependencies:
   '@parcel/validator-typescript': 2.8.0_zwebtavvrs4h4pvjmo3zqilplq
   '@tauri-apps/cli': 1.2.1
   '@types/parcel-env': 0.0.1
-  babel-preset-solid: 1.6.2_@babel+core@7.20.5
+  babel-preset-solid: 1.6.3_@babel+core@7.20.5
   http-server: 14.1.1
   husky: 8.0.2
   is-ci: 3.0.1
@@ -1484,8 +1484,8 @@ packages:
       html-entities: 2.3.2
     dev: true
 
-  /babel-preset-solid/1.6.2_@babel+core@7.20.5:
-    resolution: {integrity: sha512-5sFI34g7Jtp4r04YFWkuC1o+gnekBdPXQTJb5/6lmxi5YwzazVgKAXRwEAToC3zRaPyIYJbZUVLpOi5mDzPEuw==}
+  /babel-preset-solid/1.6.3_@babel+core@7.20.5:
+    resolution: {integrity: sha512-AQ6aaKQlDAZc3aAS+nFfXbNBf+NeJwKlRA55clj9PQI+Mkqv8JvTOnAEIGfYa0OW0sntMWhNWx+ih/4PK2s3/w==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
