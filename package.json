@@ -47,7 +47,7 @@
     "@parcel/reporter-bundle-analyzer": "2.8.1",
     "@parcel/reporter-bundle-buddy": "2.8.1",
     "@parcel/validator-typescript": "2.8.1",
-    "@tauri-apps/cli": "1.2.1",
+    "@tauri-apps/cli": "1.2.2",
     "@types/parcel-env": "0.0.1",
     "babel-preset-solid": "1.6.3",
     "http-server": "14.1.1",
