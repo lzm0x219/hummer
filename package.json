@@ -41,7 +41,7 @@
     "solid-transition-group": "0.0.12"
   },
   "devDependencies": {
-    "@babel/core": "7.20.5",
+    "@babel/core": "7.20.7",
     "@parcel/config-default": "2.8.2",
     "@parcel/core": "2.8.2",
     "@parcel/reporter-bundle-analyzer": "2.8.2",
