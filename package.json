@@ -37,7 +37,7 @@
   "dependencies": {
     "@tauri-apps/api": "1.2.0",
     "solid-app-router": "0.4.2",
-    "solid-js": "1.6.6",
+    "solid-js": "1.6.7",
     "solid-transition-group": "0.0.12"
   },
   "devDependencies": {
