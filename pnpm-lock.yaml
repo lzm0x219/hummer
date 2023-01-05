@@ -10,7 +10,7 @@ specifiers:
   '@tauri-apps/api': 1.2.0
   '@tauri-apps/cli': 1.2.2
   '@types/parcel-env': 0.0.1
-  babel-preset-solid: 1.6.6
+  babel-preset-solid: 1.6.7
   http-server: 14.1.1
   husky: 8.0.3
   is-ci: 3.0.1
@@ -47,7 +47,7 @@ devDependencies:
   '@parcel/validator-typescript': 2.8.2_2ixnotqgttg4imrcvbnecko6ii
   '@tauri-apps/cli': 1.2.2
   '@types/parcel-env': 0.0.1
-  babel-preset-solid: 1.6.6_@babel+core@7.20.12
+  babel-preset-solid: 1.6.7_@babel+core@7.20.12
   http-server: 14.1.1
   husky: 8.0.3
   is-ci: 3.0.1
@@ -1472,8 +1472,8 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /babel-plugin-jsx-dom-expressions/0.35.8_@babel+core@7.20.12:
-    resolution: {integrity: sha512-IzObXlDFA80wyEW/IUtCxaUAoJnq4CTpvcvC1xBZBlMpJDwmK6mIYnTZ9xgFyGCrAjC0LxVcqeDQx31gJJ4UJQ==}
+  /babel-plugin-jsx-dom-expressions/0.35.10_@babel+core@7.20.12:
+    resolution: {integrity: sha512-2xELzEm6CR152zeNu3Cr02zch52eVRXV4iAtSSpukcmRltsSMyIrPv1Hm1xSp76IO3OOhhySOii24xvIvV1xfQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
@@ -1484,13 +1484,13 @@ packages:
       html-entities: 2.3.2
     dev: true
 
-  /babel-preset-solid/1.6.6_@babel+core@7.20.12:
-    resolution: {integrity: sha512-uG6svyjDRmQxLtRyydlJjFkvlOGYEd/xvfUZu58UuzJdiv40lZ34K+EcgbAFD85JPUdlnkr6bbHUpUXP/VK+Jg==}
+  /babel-preset-solid/1.6.7_@babel+core@7.20.12:
+    resolution: {integrity: sha512-OYPYPX0d1ncf5MGJ7rdb8V1u0BQDaoUAR6LAgR7Cm2hS/BgjGkznrcmpY00Y6RxmQq7n2ozW+hPl2w2k7/v4vg==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.20.12
-      babel-plugin-jsx-dom-expressions: 0.35.8_@babel+core@7.20.12
+      babel-plugin-jsx-dom-expressions: 0.35.10_@babel+core@7.20.12
     dev: true
 
   /balanced-match/1.0.2:
